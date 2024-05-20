@@ -9,6 +9,5 @@ echo "El parámetro 1 y 3 son $1 y $3"
 # “En el fichero” <aquí va el nombre del fichero> “existen” <aquí va la cantidad de parámetros>
 
 echo "En el fichero $0 existen $# parámetros"
-
 # $0 (Para que te de el nombre del fichero)
 # $# (Cantidad de parametros que recibe el script)

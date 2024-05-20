@@ -18,5 +18,4 @@ echo "¿Cuál es tu actividad favorita?"
 read actividad
 echo "¿Y tu comida favorita?"
 read comida
-
 echo "Mi actividad favorita es $actividad. Mi comida favorita son $comida"
