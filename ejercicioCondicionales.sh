@@ -33,6 +33,10 @@ fi
 
 echo "Dime otro número"
 read n2
+if ! [[ $n1 =~ ^-?[0-9]+$ ]]; then
+    echo "No es un número válido"
+    exit
+fi
 
 if [ $n1 -eq $n2 ]; then 
     echo "Los números ingresados son iguales"
