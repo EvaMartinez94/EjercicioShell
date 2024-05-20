@@ -48,6 +48,7 @@ echo Ahora escriba la extensión del archivo
 read extensionArchivo
 archivo="$nombreArchivo.$extensionArchivo"
     if [[ -f "$archivo" ]]; then
+    # -f porque verifica que existe este archivo
     echo $archivo fue encontrado, procedemos a borrarlo
     rm $archivo
     echo $archivo ha sido borrado exitosamente 
