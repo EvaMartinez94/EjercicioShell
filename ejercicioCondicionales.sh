@@ -48,7 +48,7 @@ elif   [ $n1 -lt $n2 ]; then
     echo "$n2 es mayor que $n1"
 fi
 
-# Ejercicio 3:
+# Ejercicio 3
 # Escribir un script que nos diga si el valor ingresado es divisible por 2
 
 echo "Continuamos con el ejercicio 3"
